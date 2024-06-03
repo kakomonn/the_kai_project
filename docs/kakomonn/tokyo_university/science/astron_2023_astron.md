@@ -43,14 +43,11 @@ $$ g(t)=ne^{-nt} \tag{3} $$
 $$
 \documentclass[11pt]{article}
 \usepackage{empheq}
-
 \newcommand*\widefbox[1]{\fbox{\hspace{2em}#1\hspace{2em}}}
-
 \begin{document}
 \begin{empheq}[box=\widefbox]{equation}
   \bar{\nabla}^{\mu} \bar{h}_{\mu\nu} = 0
 \end{empheq}
-
 \begin{subequations}
 \begin{empheq}[box=\widefbox]{align}
   \bar{\nabla}^{\mu} \bar{h}_{\mu\nu} & = 0 \\
