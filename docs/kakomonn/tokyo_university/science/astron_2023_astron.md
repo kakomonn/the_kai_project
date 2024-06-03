@@ -42,7 +42,7 @@ $$ g(t)=ne^{-nt} \tag{3} $$
 
 $$
 \usepackage{empheq}
-\begin{empheq}[box=\widefbox]{equation}
+\begin{empheq}[box=\widefbox]
   \bar{\nabla}^{\mu} \bar{h}_{\mu\nu} = 0
 \end{empheq}
 
