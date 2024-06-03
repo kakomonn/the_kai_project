@@ -41,20 +41,11 @@ $$ g(t)=ne^{-nt} \tag{3} $$
 光電効果により生成される電子を蓄積する検出器を用いて, 天体から定常的に放射される光子を観測することを考える. $t$ 秒間の露光で検出器内に蓄積される電子の数を $X_{s}$ とする. $X_{s}$ は確率変数であり, その確率分布はポアソン分布に従う. 式 (1) のポアソン分布は期待値 $\lambda$ が十分に大きい場合に, 正規分布 $\mathrm{N}(\lambda,\lambda)$ で近似できることが知られている. 以下では, $X_{s}$ は,その期待値が十分に大きいため, 正規分布に従うものとする. また, $t$ 秒間の露光終了後, 蓄積された電子の総数の測定値 $X_{m}$ を得る際に, 測定誤差 $X_{r}$ が生じるとする $(X_m=X_s+X_r)$. $X_{r}$も確率変数であり, $\mathrm{N}(0,\sigma_r^2)$ の正規分布に従うものとする. $\sigma_r^2$ は $X_{r}$ の分散である. なお, 正規分布は以下の特徴を持つことが知られている.
 
 $$
-\documentclass[11pt]{article}
 \usepackage{empheq}
-\newcommand*\widefbox[1]{\fbox{\hspace{2em}#1\hspace{2em}}}
-\begin{document}
 \begin{empheq}[box=\widefbox]{equation}
   \bar{\nabla}^{\mu} \bar{h}_{\mu\nu} = 0
 \end{empheq}
-\begin{subequations}
-\begin{empheq}[box=\widefbox]{align}
-  \bar{\nabla}^{\mu} \bar{h}_{\mu\nu} & = 0 \\
-  \bar{\nabla}^{\mu} \bar{h}_{\mu\nu} & = 0
-\end{empheq}
-\end{subequations}
-\end{document}
+
 $$
 
 $$
